@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color:blue;
+    background: rgb(191,195,196);
+    background: linear-gradient(90deg, rgba(191,195,196,1) 29%, rgba(127,129,130,0.5245448521205357) 100%);
+    border-radius: 5px;
+}
+
+h3{
+    color: blue;
+    font-size: 25px;
+    margin: 20px;
+}
+
+p{
+    padding: 20px;
+}
+
+.row{
+    margin-top: 15px;
+    margin-bottom: 45px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.well{
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/* ----------esercizio 1------------- */
+
+.ex-1-square{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+
+.ex-1-square{
+    transition: 2s;
+}
+
+.ex-1-square:hover{
+    background: red;
+}
+
+/* -------------esercizio 2------------- */
+
+.ex-2-square{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-2-square{
+    transition: 4s ease-in;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* -------------esercizio 3----------- */
+
+.ex-3-square{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.ex-3-square{
+    transition: 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* -----------esercizio 4 ------------- */
+
+.ex-4-square{
+    width: 100px;
+    height: 100px;
+    background: red;
+    opacity: 1;
+}
+
+.ex-4-square{
+    transition: 2s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* --------esercizio 5---------- */
+
+.ex-5-square{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+}
+
+.ex-5-square{
+    transition: 2s;
+}
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(1);
+}
