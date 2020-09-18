@@ -126,3 +126,60 @@ p{
 .ex-5-square:active{
     transform: scale(1);
 }
+
+/* ----------esercizio 6 ------------ */
+
+.ex-6-img{
+    width: 600px;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* --------esercizio 7 -------- */
+
+.ex-7-img{
+    width: 600px;
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: blur(1px) grayscale(1);
+}
+
+/* ---------------esercizio 8 -------------- */
+
+.ex-8-img{
+    width: 600px;
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: grayscale(0.8) brightness(1);
+    border-radius: 50%;
+}
+
+/* ---------esercizio 9 ----------- */
+
+.ex-9-img{
+    width: 300px;
+    margin: 100px 200px;
+
+}
+
+.ex-9-img {
+    transition: 4s;
+}
+
+.ex-9-img:hover {
+    filter: blur(2px) brightness(1);
+    border-radius: 20%;
+    transform: scale(2);
+}
+
+/* -------esercizio 10 -------- */
